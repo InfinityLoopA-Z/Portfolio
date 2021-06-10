@@ -1,0 +1,19 @@
+p{
+    border-style: solid;
+    border-color: seagreen;
+    border-width: .1rem 0.3rem 0.4rem;
+}
+
+.borde
+{
+    border: 0.3rem solid blueviolet;
+    /*Ancho de todos los bordes, tipo de borde, color de borde*/
+    /*Nota: Solo se puede colocar un ancho estatico para los 4 bordes
+    de esta forma
+    Nota 2: Ante un error de logica, o sintaxis solo deja
+    de funcionar esta pequeña parte del codigo y
+    en el caso de utilizar una id o una clase 
+    para definir un estilo y el error esta ahí
+    el estilo que cargará por defecto es el del elemento
+    semantico definido anteriormente*/
+}

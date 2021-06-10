@@ -1,0 +1,52 @@
+div
+{
+    box-sizing: border-box;
+    background-color:greenyellow;
+    padding:10px;
+}
+img
+{
+    box-sizing: content-box;
+    float:right;
+    /*La imagen se posiciona a la derecha del texto*/
+    width: 250px;
+    height: 170px;
+    margin-left: 10px;
+}
+p
+{
+    box-sizing: content-box;
+    padding-top: 10px;
+}
+
+/*Elimina el element al no mostrarlo*/
+.none
+{
+    display: none;
+}
+/*Se comporta como un bloque y no permite elementos 
+cercanos y ocupa todo el ancho cuando no se especifica sus
+dimensiones*/
+.block
+{
+    padding:10px;
+    background:grey;
+    display: block;
+}
+/*Los elementos se colocan en linea, sea la cantidad que sean
+de forma responsive*/
+.inline
+{
+    padding:10px;
+    background: crimson;
+    display: inline;
+}
+/*Es una mezcla de Inline y block, permitiendo crear elementos
+en linea y definir su dimensión al mismo tiempo*/
+.inline-block
+{
+    padding:10px;
+    background: darkmagenta;
+    display: inline-block;
+    width: 150px;
+}

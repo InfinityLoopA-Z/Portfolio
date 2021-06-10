@@ -1,0 +1,14 @@
+body{
+    /*background-color: rgb(60, 60, 80);*/
+    background-image: url(/img/circle-blues.png);
+    background-repeat:repeat;
+    background-position: center;
+}
+h1{
+    color:thistle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color:white;
+    font-family: monospace;
+}

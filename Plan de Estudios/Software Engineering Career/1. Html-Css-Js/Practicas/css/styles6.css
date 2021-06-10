@@ -1,0 +1,33 @@
+div
+{
+    background-color: rgb(7, 167, 119);
+}
+
+.width
+{
+    width: 400px; /*Ancho estatico*/
+}
+.Max-Width
+{
+    max-width:400px; /*Disminuye con el tamaño de la pagina
+    hasta llegar al maximo de 400px*/
+}
+
+.Minimum-Width
+{
+    min-width:400px;
+    /*Aumenta el tamaño conforme el tamaño de la pagina
+    apartir de un minimo de 400px*/
+}
+.height
+{
+    height: 100px;
+}
+.min-max-height
+{
+    min-height:50px;
+    /*Se adapta al tamaño del contenido del contenedor*/
+    max-height: 100px;
+    /*Al colocar al máximo el contenedor ya no se adapta
+    a la cantidad de elementos*/
+}

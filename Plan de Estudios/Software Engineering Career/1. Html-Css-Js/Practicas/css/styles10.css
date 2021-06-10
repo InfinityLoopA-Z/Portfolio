@@ -1,0 +1,55 @@
+*
+{
+    margin:0;
+    padding:auto;
+}
+
+
+.principal
+{
+    width:1800px;
+    height: 1800px;
+    background-color: indigo;
+    margin:auto
+}
+/*Se queda en su lugar original, no se mueve*/
+.est
+{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    position:static;
+    left:150px;
+    top:150px;
+}
+/*Toma como punto de referencia el lugar donde debería estar*/
+.rel
+{
+    width: 100px;
+    height: 100px;
+    background-color: mediumpurple;
+    position: relative;
+    left:150px;
+    top:150px;
+
+}
+/*Es la propiedad de la ventana del navegador*/
+.abs
+{
+    width: 100px;
+    height: 100px;
+    background-color:mediumvioletred;
+    position: absolute;
+    left:150px;
+    top:150px;
+}
+/*Se comporta como abs pero al mover la pestaña se desplaza con el cursor */
+.fix
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    left:250px;
+    top:150px;
+}

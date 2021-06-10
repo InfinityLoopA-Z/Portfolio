@@ -1,0 +1,33 @@
+/*selector universal cambia el tamaño de todo*/
+*{
+    font-size:10px;
+}
+
+
+
+/*Css Sintaxis*/
+a{
+    color:green;
+}
+
+#Parrafo1 /*Para acceder a una ID*/
+{
+    color:crimson;
+}
+
+/*Class*/
+.green{
+    color:darkgreen;
+}
+
+/*agrupación*/
+
+h1{ /*Caracteristicas generales de un grupo*/
+    color:deeppink;
+    font-size:50px;
+}
+
+h1.unicoYdetergente{ /*Caracteristicas particulares de
+    un elemento que pertenece a un grupo general*/
+    color:deepskyblue;
+}

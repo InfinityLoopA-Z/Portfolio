@@ -1,0 +1,26 @@
+.pixel
+{
+    background-image: url(/img/circle-blues.png);
+    width: 200px; /*Unidad absoluta*/
+}
+
+.porcentaje
+{
+    background-image: url(/img/circle-blues.png);
+    width:15%; /*Unidad Relativa porcentual respecto al 
+    tamaño del body*/
+}
+
+p{
+    color:white;
+}
+
+li{
+    /*font-size:1.5em; /*Aumenta de forma de CASCADA
+    1.5 veces el tamaño actual de la fuente normal: 16px
+    dentro de una lista con otra lista dentro, 
+    este se triplica solo usar para bordes y padding*/
+    font-size: 1.5rem; /*Generalmente usados en tipografia
+    para elementos de tipografia */
+
+}

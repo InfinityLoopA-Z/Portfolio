@@ -1,0 +1,69 @@
+*
+{
+    margin:0;
+    padding:auto;
+}
+.first
+{
+    border:black 5px solid;
+    margin:10px;
+    padding:10px
+}
+/*Invoca a la clase first y le asigna parametros al 
+primer elemento de esa clase*/
+.first p:first-child
+{
+    color:aqua;
+}
+/*Se le asigna un color diferente a los link sin visitar
+y a los visitados*/
+a:link
+{
+    background-color:beige;
+}
+a:visited
+{
+    background-color:chocolate;
+}
+
+/*Cuando pasas el mouse sobre un elemento 
+cambia su color*/
+.hover
+{
+    width: 250px;
+    height: 240px;
+    background-color: darkmagenta;
+}
+
+.hover:hover
+{
+    width: 250px;
+    height: 240px;
+    background-color: rgb(153, 111, 153);
+}
+/*Cambia el color del elemento al hacer click sobre el */
+.active
+{
+    background-color:darkorange;
+    color:white;
+}
+.active:active
+{
+    background-color:#fda335;
+    color:white;
+}
+/*Cuando haces click sobre el imput "focus" su interfaz
+cambia*/
+input:focus
+{
+    border:tomato 5px solid;
+    padding:2px;
+}
+
+.before:before
+{
+    content: "This is a Before";
+}
+.after:after{
+    content:"This is a After";
+}

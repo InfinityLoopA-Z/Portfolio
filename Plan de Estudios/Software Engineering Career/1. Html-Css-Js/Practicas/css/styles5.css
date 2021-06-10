@@ -1,0 +1,24 @@
+/*Resetear los margenes del navegador*/
+*{
+    margin:0;
+    padding: 0;
+}
+div{
+    width:fit-content; /*Tamaño del contenedor dependiendo el contenido*/
+    margin: 0 auto; /*Margen superior centrado*/
+    background-color: cornflowerblue;
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;*/
+}
+
+p
+{
+    color:white;
+    /*margin-right: 40px;*/
+}
+
+.Parrafo
+{
+    color:black;
+}

@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.context
+{
+    box-sizing: content-box;
+    background:aqua;
+    width: 100px;
+    height: 100px;
+    padding:10px ;
+    /*Al cambiar el padding el contenido del content-box
+    no cambia de tamaño*/
+}
+
+.border
+{
+    box-sizing: border-box;
+    background:chocolate;
+    width: 100px;
+    height: 100px;
+    padding:10px ;
+    /*Al cambiar el padding el contenido del border-box
+    cambia de tamaño inversamente proporcional al padding*/
+}
