@@ -1,0 +1,11 @@
+- ¿Cúal es el Stack tecnológico utilizado?
+- Proyectos Actuales de la empresa
+- ¿Por qué Python?
+- Frameworks
+- ¿Cuales son los tipos de herramientas utilizadas
+para Continous Integration/Continous Delivery CI/CD?
+- Metodología de trabajo "Agile"
+- Distribución de Tareas
+- Ambiente Laboral, Rol a Desempeñar.
+- Testing TDD o BDD o TDD/BDD
+- S.
